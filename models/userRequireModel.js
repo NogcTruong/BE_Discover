@@ -14,6 +14,10 @@ const UserRequireSchema = new Schema(
       type: [String],
       require: true,
     },
+    address: {
+      type: String,
+      require: true,
+    },
     budget: {
       type: Number,
       require: true,

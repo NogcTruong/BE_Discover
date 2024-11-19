@@ -81,7 +81,6 @@ const FiltersController = {
                 docs,
             });
         } catch (error) {
-            console.error("Filter error:", error);
             res.status(500).json({
                 type: "error",
                 message: "Đã xảy ra lỗi trong quá trình lọc.",
